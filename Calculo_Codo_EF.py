@@ -1,13 +1,13 @@
 # Importar las bibliotecas necesarias
 import sys # La biblioteca sys ofrece funciones para interactuar con el sistema operativo
-sys.path.append("C:/Users/santi/Downloads/") # Añadir la ruta donde se encuentra el archivo DeteccionCodoEFpy.py al sistema
+sys.path.append("C:/Users/santi/Downloads/Procesamiento_video") # Añadir la ruta donde se encuentra el archivo DeteccionCodoEFpy.py al sistema
 import cv2 as cv # OpenCV es una biblioteca de visión por computadora que ofrece funciones para procesar imágenes y videos
-import DeteccionCodoEFpy as DC # Importar el archivo DeteccionCodoEFpy como DC, que contiene la clase Detector_Pose
+import Modulo_EF_Codo as DC # Importar el archivo DeteccionCodoEFpy como DC, que contiene la clase Detector_Pose
 import time # La biblioteca time ofrece funciones para medir el tiempo
 import numpy as np # NumPy es una biblioteca para trabajar con matrices y operaciones numéricas
 
 # Crear un objeto de la clase VideoCapture de OpenCV, que permite capturar imágenes de un video o una cámara
-cap = cv.VideoCapture("C:/Users/santi/Downloads/video1.mp4") # Pasar la ruta del video como argumento
+cap = cv.VideoCapture("C:/Users/santi/Downloads/Procesamiento_video/video1.mp4") # Pasar la ruta del video como argumento
 # Crear un objeto de la clase Detector_Pose que definiste anteriormente
 detector = DC.Detector_Pose()
 # Inicializar una variable para almacenar el tiempo previo
