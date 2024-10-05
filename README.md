@@ -25,5 +25,6 @@ Este proyecto está orientado al procesamiento de videos utilizando técnicas de
 
 ### Instalación de dependencias
 
-```bash
+```
+bash
 pip install opencv-python numpy matplotlib pandas mediapipe
