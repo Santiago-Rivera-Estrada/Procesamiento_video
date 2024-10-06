@@ -25,6 +25,25 @@ Este proyecto está orientado al procesamiento de videos utilizando técnicas de
 
 ### Instalación de dependencias
 
-```
-bash
+```bash
 pip install opencv-python numpy matplotlib pandas mediapipe
+
+## Uso
+
+Para ejecutar el proyecto, abre una IDE compatible con Python y especifica la carpeta principal que contiene las subcarpetas con el conjunto de videos.
+
+## Contribuciones
+Las contribuciones son bienvenidas. Si deseas colaborar, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
+3. Realiza tus cambios y confírmalos (git commit -m 'Agregada nueva característica').
+4. Haz push a la rama (git push origin feature/nueva-caracteristica).
+5. Crea un nuevo Pull Request.
+
+## Agradecimientos
+Queremos agradecer a todos aquellos que han contribuido con su tiempo y esfuerzo al desarrollo de este proyecto. Su apoyo y dedicación han sido fundamentales para su éxito.
+
+**TRABAJO HECHO POR SANTIAGO RIVERA ESTRADA, ESTUDIANTE DE BIOINGENIERÍA**  
+**ASESORES:** JULIANA MORENO Y JOHN FREDY OCHOA, PROFESORES DE BIOINGENIERÍA.  
+**NEUROCO (GRUPO DE NEUROCIENCIAS COMPUTACIONALES) - UNIVERSIDAD DE ANTIOQUIA - MEDELLÍN, COLOMBIA.**
