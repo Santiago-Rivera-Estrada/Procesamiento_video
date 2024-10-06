@@ -27,6 +27,7 @@ Este proyecto está orientado al procesamiento de videos utilizando técnicas de
 
 ```bash
 pip install opencv-python numpy matplotlib pandas mediapipe
+```
 
 ## Uso
 
